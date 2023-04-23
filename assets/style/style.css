@@ -1,0 +1,77 @@
+
+.cover-img {
+    height: 250px;
+}
+
+.carmel-sea {
+    width: 100%;
+    height:100%;
+    border-radius:0 0 10px 10px;
+    object-fit: cover;
+       }
+
+.aboutme-div {
+    height:fit-content;
+}
+
+ .pitching {
+        flex-grow: 0;
+        flex-shrink: 1;
+        margin: 15px;
+        border:5px;
+        border-radius: 50px;
+        /* object-fit: cover; */
+        height: 200px;
+        float: right;
+        }
+
+.app-1 {
+            margin:10px;
+            height:200px;
+            width: 350px;
+            display:flex;
+            flex-grow:0;
+            flex-shrink:1;
+            background-size: cover;
+            color:white;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+.img-div {
+    justify-content: center;
+    display:flex;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.img-div2 {
+    justify-content: center;
+    display:flex;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.work-div {
+    display:flex;
+}
+
+
+.proj-img {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+div ul li {
+    list-style-type: none;
+}
+
+.contact-list {
+    display:flex;
+    font-size: 20px;
+}
